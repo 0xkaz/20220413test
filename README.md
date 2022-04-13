@@ -67,6 +67,37 @@ await Test.total():  29999000000
 
 ```
 
+## for moonbeam
+
+```
+yarn deploy:test:moonbeam
+```
+
+output
+
+```
+yarn run v1.22.10
+warning ../../package.json: No license field
+$ hardhat deploy --network moonbeam --tags Test
+Nothing to compile
+start..
+hre.network.name = moonbeam
+signers[0].getBalance:  4000000000000000000
+deployer = 0x6eA8D23189aE68F1423c6Fc8f93b602B5C0524A7
+
+
+
+mydeploy: Test
+
+deploying "Test" (tx: 0xb7fc21e07b0c9c9ba8067ecb9559dbdbb53849ff108c54935ac53277f25addd2)...: deployed at 0xa8D4AD8ee8D29BcD0Bad8B0800F761Fb0005972d with 194199 gas
+Test.address:  0xa8D4AD8ee8D29BcD0Bad8B0800F761Fb0005972d
+await Test.amount1():  10000000000
+await Test.amount2():  10000000000
+await Test.amount3():  10000000000
+await Test.total():  30000000000
+✨  Done in 92.38s.
+```
+
 ## for fantom
 
 ```

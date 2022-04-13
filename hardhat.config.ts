@@ -157,8 +157,21 @@ const config: HardhatUserConfig = {
       // allowUnlimitedContractSize: true,
       // blockGasLimit: 0x1fffffffffffff,
     },
+    moonbeam: {
+      url: "https://rpc.api.moonbeam.network",
+      // GLMR
+      // https://moonscan.io/
+      accounts,
+      chainId: 1284,
+      live: true,
+      saveDeployments: true,
+      tags: ["staging"],
+      gas: 5198000,
+      gasMultiplier: 2,
+    },
     moonbase: {
       url: "https://rpc.testnet.moonbeam.network",
+      // https://moonbase-blockscout.testnet.moonbeam.network/
       accounts,
       chainId: 1287,
       live: true,
@@ -166,6 +179,15 @@ const config: HardhatUserConfig = {
       tags: ["staging"],
       gas: 5198000,
       gasMultiplier: 2,
+    },
+
+    moonriver: {
+      url: "https://rpc.moonriver.moonbeam.network",
+      accounts,
+      chainId: 1285,
+      live: true,
+      saveDeployments: true,
+      tags: ["prod"],
     },
     arbitrum: {
       url: "https://kovan3.arbitrum.io/rpc",

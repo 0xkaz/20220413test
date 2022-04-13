@@ -71,6 +71,7 @@ func.skip = async (hre) => {
     hre.network.name !== "xdai" &&
     hre.network.name !== "bsc" &&
     hre.network.name !== "harmonytest" &&
+    hre.network.name !== "moonbeam" &&
     hre.network.name !== "avalanche" &&
     hre.network.name !== "shibuya"
   );

@@ -16,6 +16,7 @@
     "deploy:test:avalanche": "hardhat deploy --network avalanche --tags Test ",
     "deploy:test:xdai": "hardhat deploy --network xdai --tags Test ",
     "deploy:test:bsc": "hardhat deploy --network bsc --tags Test ",
+    "deploy:test:moonbeam": "hardhat deploy --network moonbeam --tags Test ",
     "test": "hardhat test"
   },
   "dependencies": {
