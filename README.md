@@ -1,14 +1,14 @@
 # The problem summary
 
-Only the output on Astar is different from the others.
+Only the output on Astar & Shiden are different from the others.
 
-On Astar.
+On Astar & Shiden
 
 ```
 await Test.total():  29999000000
 ```
 
-Others..
+On other chains (moonbeam, bsc, harmony, harmony testnet, fantom, fantom test, polygon, mumbai, avalanche, xdai ).
 
 ```
 await Test.total():  30000000000
@@ -64,6 +64,40 @@ await Test.amount2():  10000000000
 await Test.amount3():  10000000000
 await Test.total():  29999000000
 ✨  Done in 141.33s.
+
+```
+
+## for shiden
+
+```
+yarn deploy:test:shiden
+```
+
+output
+
+```
+yarn run v1.22.10
+warning ../../package.json: No license field
+$ hardhat deploy --network shiden --tags Test
+Nothing to compile
+start..
+hre.network.name = shiden
+signers[0].getBalance:  3999999999000000
+deployer = 0x6eA8D23189aE68F1423c6Fc8f93b602B5C0524A7
+
+
+
+
+
+mydeploy: Test
+
+deploying "Test" (tx: 0x1620a231207c63e90075180348709f0c4718ba7f844bb99e12a78cf6bfa4edbb)...: deployed at 0xa8D4AD8ee8D29BcD0Bad8B0800F761Fb0005972d with 194199 gas
+Test.address:  0xa8D4AD8ee8D29BcD0Bad8B0800F761Fb0005972d
+await Test.amount1():  10000000000
+await Test.amount2():  10000000000
+await Test.amount3():  10000000000
+await Test.total():  29999000000
+✨  Done in 188.58s.
 
 ```
 
