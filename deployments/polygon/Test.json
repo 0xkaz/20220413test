@@ -1,0 +1,176 @@
+{
+  "address": "0xa1c12e8C62d180F392217394ce15D8b113E46ed4",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "amount1",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "amount2",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "amount3",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "test1",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "test2",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "test3",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "total",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x6ca22de5655cbea08d8a02c75dbb6e9b5f76bd4f5501740228a6cb95a707ecc8",
+  "receipt": {
+    "to": null,
+    "from": "0x6eA8D23189aE68F1423c6Fc8f93b602B5C0524A7",
+    "contractAddress": "0xa1c12e8C62d180F392217394ce15D8b113E46ed4",
+    "transactionIndex": 37,
+    "gasUsed": "194199",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000400000000000000400000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000000000400000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000040004000000000000000000001000000000000000000000000000000100000000000000000000000000000000004000000000000000000000000000000000000100000",
+    "blockHash": "0x3319c25deb73e7a43fdfb53395d7de9cb33558f4610f5a8a9b2d97a6196c1414",
+    "transactionHash": "0x6ca22de5655cbea08d8a02c75dbb6e9b5f76bd4f5501740228a6cb95a707ecc8",
+    "logs": [
+      {
+        "transactionIndex": 37,
+        "blockNumber": 27091883,
+        "transactionHash": "0x6ca22de5655cbea08d8a02c75dbb6e9b5f76bd4f5501740228a6cb95a707ecc8",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x0000000000000000000000006ea8d23189ae68f1423c6fc8f93b602b5c0524a7",
+          "0x0000000000000000000000007c7379531b2aee82e4ca06d4175d13b9cbeafd49"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000002169ea83c8713c0000000000000000000000000000000000000000000000001bfd69d50e7a76da00000000000000000000000000000000000000000000d20020098b516b0475990000000000000000000000000000000000000000000000001bdbffea8ab2059e00000000000000000000000000000000000000000000d200202af53beecce6d5",
+        "logIndex": 209,
+        "blockHash": "0x3319c25deb73e7a43fdfb53395d7de9cb33558f4610f5a8a9b2d97a6196c1414"
+      }
+    ],
+    "blockNumber": 27091883,
+    "cumulativeGasUsed": "7127259",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "0a384907379f36a2527727f98c49040c",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"amount1\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"amount2\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"amount3\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"test1\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"test2\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"test3\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"total\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Test.sol\":\"Test\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Test.sol\":{\"content\":\"pragma solidity 0.8.13;\\n\\n// pragma solidity 0.7.6;\\n\\ncontract Test {\\n  uint256 public amount1 = 0;\\n  uint256 public amount2 = 0;\\n  uint256 public amount3 = 0;\\n  uint256 public total = 0;\\n\\n  // check msg.value\\n  function test1() public payable {\\n    amount1 = msg.value;\\n    total = address(this).balance;\\n  }\\n\\n  // check msg.value\\n  function test2() public payable {\\n    amount2 = msg.value;\\n    total = address(this).balance;\\n  }\\n\\n  // check msg.value\\n  function test3() public payable {\\n    amount3 = msg.value;\\n    total = address(this).balance;\\n  }\\n\\n  function withdraw() public {\\n    payable(msg.sender).transfer(address(this).balance);\\n    total = address(this).balance;\\n  }\\n}\\n\",\"keccak256\":\"0x1925ad9827e4ec7807b64b0410290b2c82681b25b976f9c368ae410bf437a980\"}},\"version\":1}",
+  "bytecode": "0x60806040526000805560006001556000600255600060035534801561002357600080fd5b50610263806100336000396000f3fe60806040526004361061007b5760003560e01c806366e41cb71161004e57806366e41cb7146100f75780636b59084d146101015780637543af9c1461010b578063f400fde4146101365761007b565b8063057bfcc7146100805780630a8e8e01146100ab5780632ddbd13a146100b55780633ccfd60b146100e0575b600080fd5b34801561008c57600080fd5b50610095610161565b6040516100a29190610212565b60405180910390f35b6100b3610167565b005b3480156100c157600080fd5b506100ca610177565b6040516100d79190610212565b60405180910390f35b3480156100ec57600080fd5b506100f561017d565b005b6100ff6101cd565b005b6101096101dd565b005b34801561011757600080fd5b506101206101ed565b60405161012d9190610212565b60405180910390f35b34801561014257600080fd5b5061014b6101f3565b6040516101589190610212565b60405180910390f35b60015481565b3460028190555047600381905550565b60035481565b3373ffffffffffffffffffffffffffffffffffffffff166108fc479081150290604051600060405180830381858888f193505050501580156101c3573d6000803e3d6000fd5b5047600381905550565b3460018190555047600381905550565b3460008190555047600381905550565b60025481565b60005481565b6000819050919050565b61020c816101f9565b82525050565b60006020820190506102276000830184610203565b9291505056fea264697066735822122039f5de95d69e719cf6b61f134525e1ba357af62ccacbb0de68b7feb33c1856f764736f6c634300080d0033",
+  "deployedBytecode": "0x60806040526004361061007b5760003560e01c806366e41cb71161004e57806366e41cb7146100f75780636b59084d146101015780637543af9c1461010b578063f400fde4146101365761007b565b8063057bfcc7146100805780630a8e8e01146100ab5780632ddbd13a146100b55780633ccfd60b146100e0575b600080fd5b34801561008c57600080fd5b50610095610161565b6040516100a29190610212565b60405180910390f35b6100b3610167565b005b3480156100c157600080fd5b506100ca610177565b6040516100d79190610212565b60405180910390f35b3480156100ec57600080fd5b506100f561017d565b005b6100ff6101cd565b005b6101096101dd565b005b34801561011757600080fd5b506101206101ed565b60405161012d9190610212565b60405180910390f35b34801561014257600080fd5b5061014b6101f3565b6040516101589190610212565b60405180910390f35b60015481565b3460028190555047600381905550565b60035481565b3373ffffffffffffffffffffffffffffffffffffffff166108fc479081150290604051600060405180830381858888f193505050501580156101c3573d6000803e3d6000fd5b5047600381905550565b3460018190555047600381905550565b3460008190555047600381905550565b60025481565b60005481565b6000819050919050565b61020c816101f9565b82525050565b60006020820190506102276000830184610203565b9291505056fea264697066735822122039f5de95d69e719cf6b61f134525e1ba357af62ccacbb0de68b7feb33c1856f764736f6c634300080d0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 4,
+        "contract": "contracts/Test.sol:Test",
+        "label": "amount1",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 7,
+        "contract": "contracts/Test.sol:Test",
+        "label": "amount2",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 10,
+        "contract": "contracts/Test.sol:Test",
+        "label": "amount3",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 13,
+        "contract": "contracts/Test.sol:Test",
+        "label": "total",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
