@@ -1,4 +1,4 @@
-# problem summary
+# The problem summary
 
 Only the output on Astar is different from the others.
 
@@ -18,13 +18,19 @@ await Test.total():  30000000000
 
 # setup
 
+```
 yarn
+mv .env.sample .env
+vim .env
+```
 
 ---
 
 # build
 
+```
 yarn build
+```
 
 ---
 
@@ -178,6 +184,8 @@ await Test.total():  30000000000
 yarn deploy:test:xdai
 ```
 
+output
+
 ```
 
 yarn run v1.22.10
@@ -206,6 +214,8 @@ await Test.total():  30000000000
 ```
 yarn deploy:test:polygon
 ```
+
+output
 
 ```
 yarn run v1.22.10
@@ -237,6 +247,8 @@ await Test.total():  30000000000
 ```
 yarn deploy:test:bsc
 ```
+
+output
 
 ```
 
@@ -270,6 +282,8 @@ await Test.total():  30000000000
 yarn deploy:test:harmony
 ```
 
+output
+
 ```
 yarn run v1.22.10
 warning ../../package.json: No license field
@@ -300,6 +314,8 @@ await Test.total():  30000000000
 ```
 yarn deploy:test:harmonytest
 ```
+
+output
 
 ```
 
@@ -333,6 +349,8 @@ await Test.total():  30000000000
 ```
 yarn deploy:test:avalanche
 ```
+
+output
 
 ```
 yarn run v1.22.10
